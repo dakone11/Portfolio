@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './componentes/Header';
+import Navbar from './componentes/Navbar';
+import Timeline from './componentes/Timeline';
+import AnimatedCursor from "react-animated-cursor"
+import Project from './componentes/Project';
+import Footer from './componentes/Footer';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <AnimatedCursor
+        color='493, 11, 111'
+        innerSize={8}
+        outerSize={8}
+     />
+       <Navbar/>
+       <Header/>
+       <Timeline/>
+       <Project/>
+       <Footer/>
+    </>
+   
+    
+     
+   
   );
 }
 
