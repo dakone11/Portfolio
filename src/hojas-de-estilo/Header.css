@@ -18,12 +18,12 @@
 @keyframes bg {
 	0% {
 		background-position: left center;
-		background-size: 50%;
+		background-size: 25%;
 	}
 
 	100% {
 		background-position: left center;
-		background-size: 55%;
+		background-size: 50%;
 	}
 }
 .intro-container{
@@ -37,7 +37,7 @@
  margin-left:-200px;
  width: 540px;
  z-index:6;
- animation: myAnim 2s ease 0s 1 normal forwards;
+ animation: myAnim 1s ease 0s 1 normal forwards;
 }
 @keyframes myAnim {
 	0% {
