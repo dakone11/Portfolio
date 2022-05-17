@@ -6,7 +6,7 @@ import Footer from './componentes/Footer';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import About from './pages/About/About';
-import { BrowserRouter, NavLink,Routes,Route } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
 
 
 
