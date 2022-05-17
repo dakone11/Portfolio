@@ -7,12 +7,16 @@ import { BsChevronDoubleRight } from 'react-icons/bs';
 function Project () {
   
   return (
+    
 <div className='menu'>
+
 <Fade left>
     <div className='menu_all_projects'>
+    
         <p>view <span>projects</span></p>
        <a><GrProjects/></a> 
     </div>
+    
     </Fade>
 
 <Fade bottom>

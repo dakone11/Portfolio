@@ -4,7 +4,9 @@ import Fade from 'react-reveal/Fade';
 import React from "react";
 import Typed from "react-typed";
 
-function Header () {
+function Header (props) {
+
+
   const textLines = [
     `Hey! Check out my projects`,
     `work made with love`,
@@ -22,7 +24,7 @@ function Header () {
     <div className='container'>
         <div className="intro-container">
           
-            <img className="carlos-imagen" src={ require('../imagenes/about-me2.png')}  alt='' />
+            <img className="carlos-imagen" src={ require( `../imagenes/header-${props.imagen}.png`)}  alt='imagen de carlos frontal' />
             <img className="triangulo1"  src={ require('../imagenes/triaungulo2.png')} alt=''/>
             <img className="triangulo2"  src={ require('../imagenes/triangulo1.png')} alt=''/>
             <img className="triangulo3" src={ require('../imagenes/triangulo1.png')} alt=''/>
@@ -30,7 +32,7 @@ function Header () {
        
         <div className="text-intro">
        
-            <h1 className='tittle' >FRONTEND DEVELOPER</h1>
+            <h1 className='tittle'>{props.titulo}</h1>
             <p className='nombre'>Carlos Martínez Ripollés</p>
             <div className="buttons">
               <Fade top>

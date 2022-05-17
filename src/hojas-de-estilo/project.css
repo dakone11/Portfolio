@@ -1,6 +1,5 @@
 main::before {
 	animation: grain 8s steps(10) infinite;
-	background-image: url(../imagenes/noise.png);
 	content: '';
 	height: 300%;
 	left: -50%;
@@ -81,9 +80,9 @@ margin-bottom: 2rem;
 	cursor: pointer;
 	position: relative;
 	-webkit-text-stroke: 3.5px #f300b4;
-	text-stroke: 3.5px #f300b4;
+
 	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
+
 	color: transparent;
 	transition: opacity 0.4s;
 }
@@ -114,18 +113,14 @@ margin-bottom: 2rem;
 	top: 50%;
 	transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,90px,0);
 	outline: 1px solid #f300b4;
-	outline-offset: 5px;
-	
-	
+	outline-offset: 5px;		
 }
 
 .menu__item-link:hover + .menu__item-img {
 	opacity: 1;
 	transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,2deg);
-	transition: all 0.4s;
+	transition: all 0.4s;	
 }
-
-/* Make sure 3 items are visible in the viewport by setting suitable font size. */
 
 .marquee {
 	position: absolute;
@@ -175,9 +170,8 @@ margin-bottom: 2rem;
 	align-items: center;
 	font-weight: 400;
 	font-size: 0.8rem;
+	text-transform: uppercase;
 }
-
-
 
 /*  papel Origami */
 .pl, .pl:before, .pl:after {
@@ -258,7 +252,7 @@ margin-bottom: 2rem;
 	}
 	.menu__item-link {
 		-webkit-text-stroke: 2.5px #f300b4;
-		text-stroke: 2.5px #f300b4;
+	
 	}
 	
 
@@ -273,8 +267,28 @@ margin-bottom: 2rem;
 	}
 	.menu__item-link {
 		-webkit-text-stroke: 1.5px #f300b4;
-		text-stroke: 1.5px #f300b4;
+	
+	}
+	.menu__item-img {
+		pointer-events: none;
+		position: absolute;
+		height: 20vh;
+		max-height: 300px;
+		opacity: 0;
+		left: 100%;
+		top: 50%;
+		transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,90px,0);
+		outline: 1px solid #f300b4;
+		outline-offset: 5px;
+		
+		
 	}
 	
+	.menu__item-link:hover + .menu__item-img {
+		opacity: 1;
+		transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,2deg);
+		transition: all 0.4s;
+		z-index: 5;
+	}
 
 }

@@ -9,7 +9,7 @@ function Footer () {
   
   return (
     <footer>
-    <div className='container'>
+    <div className='container-f'>
       <div className='heading-wrapper'>
       
         <div className='heading'>
@@ -21,15 +21,7 @@ function Footer () {
           </p>
           <p className='separator' />
           <p className='subtitle'>
-            Please, use the form below or send an email to 
-            <span className='mail'>
-              web
-              <i className="fas fa-at at" />
-              CarlosMartínezRipollés
-              <i className="fas fa-circle dot" />
-              com
-            </span>
-            :
+            Please, use the form below or send an email or call me 
           </p>
         </div>
        

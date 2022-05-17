@@ -16,9 +16,9 @@ function Navbar() {
         <h2>CMR <span>Portfolio</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
             <Link to="/">Home</Link>
-			      <Link to="/about">About</Link>
-            <Link to="/about">Projects</Link>
-            <Link to="/about">Contact</Link>
+			      <Link to="/About">About</Link>
+            <Link to="/Projects">Projects</Link>
+            <Link to="/Contact">Contact</Link>
         </div>
          <div className='burguer'>
             <BurguerButton clicked={clicked} handleClick={handleClick} />
@@ -100,10 +100,7 @@ const NavContainer = styled.nav`
       margin-top:1rem;
     }
     a:hover {
-      /*color: white !important;*/
-      webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:#9401B1;
-      -webkit-text-fill-color: transparent;
+      color:#131313;
     }
   }
   .burguer{
