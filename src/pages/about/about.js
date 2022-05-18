@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../componentes/Header';
+import Skills from '../../componentes/Skills';
 
 export const About = () => {
   return (
@@ -8,7 +9,7 @@ export const About = () => {
          titulo='ABOUT ME'
          imagen='me'
         />
-
+        <Skills/>
 </>
   )
 }
