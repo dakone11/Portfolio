@@ -1,0 +1,22 @@
+.intro_about{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    width: 100%;
+    align-items: flex-start;
+}
+.tittle_about{
+    margin: 3rem;
+}
+.intro_about{
+    font-size: 1rem;
+    font-weight: 200;
+    width: 80%;
+}
+
+@media (max-width: 48em) {
+
+    .intro_about{
+        display: block;
+    }
+}

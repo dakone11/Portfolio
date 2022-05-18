@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     padding-left: 75px;
-    width: 100%;
+    width: 50%;
     position: relative;
+    margin-left: 50px;
 }
 .wall {
     display: flex;
@@ -91,7 +92,7 @@
 .box-back .box-text {
     line-height: 100px;
     text-align: center;
-    font-size: 12px;
+    font-size: 22px;
     color: #636363;
     -webkit-transform: rotate(-135deg);
     -ms-transform: rotate(-90deg);

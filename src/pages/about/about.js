@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutText from '../../componentes/AboutText';
 import Header from '../../componentes/Header';
 import Skills from '../../componentes/Skills';
 
@@ -9,7 +10,7 @@ export const About = () => {
          titulo='ABOUT ME'
          imagen='me'
         />
-        <Skills/>
+        <AboutText/>
 </>
   )
 }
