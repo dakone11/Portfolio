@@ -1,17 +1,18 @@
 .intro_about{
     display: flex;
-    justify-content: space-between;
-    margin: 3rem;
+    justify-content:space-around;
     width: 100%;
-    align-items: flex-start;
-}
-.tittle_about{
-    margin: 3rem;
-}
-.intro_about{
+    align-items: center;
     font-size: 1rem;
     font-weight: 200;
-    width: 80%;
+    flex-wrap: wrap;
+    padding: 1rem;
+    position: relative;
+}
+
+.text_about{
+    max-width: 450px;
+    text-align: justify;
 }
 
 @media (max-width: 48em) {

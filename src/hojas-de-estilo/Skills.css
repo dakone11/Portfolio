@@ -2,12 +2,22 @@
     display: flex;
     justify-content: center;
     padding-left: 75px;
-    width: 50%;
     position: relative;
     margin-left: 50px;
+   
 }
 .wall {
     display: flex;
+    position: relative;
+   
+}
+.skills-tittle{
+    position: absolute;
+    left:-200px;
+   top:100px;
+}
+.skills-tittle span{
+    font-weight: 200;
 }
 .v-boxes {
     display: flex;

@@ -1,8 +1,6 @@
 import React from 'react'
-import AboutText from '../../componentes/AboutText';
 import Header from '../../componentes/Header';
-import Skills from '../../componentes/Skills';
-
+import AboutText from '../../componentes/AboutText';
 export const About = () => {
   return (
     <>
@@ -10,7 +8,8 @@ export const About = () => {
          titulo='ABOUT ME'
          imagen='me'
         />
-        <AboutText/>
+       
+         <AboutText/>
 </>
   )
 }

@@ -36,7 +36,7 @@ function Header (props) {
             <p className='nombre'>Carlos Martínez Ripollés</p>
             <div className="buttons">
               <Fade top>
-               <a href="#projects">my portfolio</a>
+               <a href="#projects">my works</a>
               <a href="#contact" className="cta">get in touch</a>
               </Fade>
             </div>
