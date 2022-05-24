@@ -9979,6 +9979,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
 
+"react-parallax-tilt@^1.7.35":
+  "integrity" "sha512-xejXrQ659IQdPsmKL8Tc3vM98Uteql0+cm47GcgldT1OL5BmAQ4zQYYq6M92LFF1Nij28JJrQHANWHXsvIdWRg=="
+  "resolved" "https://registry.npmjs.org/react-parallax-tilt/-/react-parallax-tilt-1.7.35.tgz"
+  "version" "1.7.35"
+
 "react-reveal@^1.2.2":
   "integrity" "sha512-JCv3fAoU6Z+Lcd8U48bwzm4pMZ79qsedSXYwpwt6lJNtj/v5nKJYZZbw3yhaQPPgYePo3Y0NOCoYOq/jcsisuw=="
   "resolved" "https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz"

@@ -9,6 +9,20 @@ main::before {
 	width: 300%;
 	
 }
+.containerlist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.containerlist h1 span{
+	font-weight: 500;
+	border-bottom: 1px solid #f300b4;
+  }
+.containerlist h1 span{
+	font-weight: 200;
+  }
 
 @keyframes grain {
   0%, 100% { transform:translate(0, 0); }

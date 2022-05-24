@@ -8,11 +8,33 @@
     flex-wrap: wrap;
     padding: 1rem;
     position: relative;
+   
 }
+
+.text_about span{
+    font-weight: 200;
+   
+}
+.text_about h2{
+    position: relative;
+}
+.text_about h2:before{
+        position: absolute;
+        content: '';
+        left: 220px;
+        bottom: 17px;
+        width: 210px;
+        height: 2px;
+        background-color: #f300b4;
+    }
+
+   
 
 .text_about{
     max-width: 450px;
     text-align: justify;
+    padding-left: 1rem;
+    position: relative;
 }
 
 @media (max-width: 48em) {

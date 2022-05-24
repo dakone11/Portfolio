@@ -21,11 +21,12 @@ function Footer () {
           </p>
           <p className='separator' />
           <p className='subtitle'>
-            Please, use the form below or send an email or call me 
+            Please, use the form below 
           </p>
         </div>
        
         <div className='social'>
+        <img className='triangulo4' src={ require('../imagenes/triangulo1.png')} alt=''/>
         <a
          target="_blank"
          href="/">

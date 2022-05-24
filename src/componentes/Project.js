@@ -24,7 +24,7 @@ function Project () {
     <BsChevronDoubleRight/>
         <a className='menu__item-link' >
         POWERFANS</a>
-        <img className='menu__item-img' src={require('../imagenes/1.jpg')} alt='' />
+        <img className='menu__item-img' src={require('../imagenes/show-project1.png')} alt='' />
         <div className='marquee'>
             <div className='marquee__inner' aria-hidden='true'>
                  <span>POWERFANS</span>
@@ -48,7 +48,7 @@ function Project () {
     <div className='menu__item'>
     <BsChevronDoubleRight/>
 <a className='menu__item-link'>ITE Valencia</a>
-<img className='menu__item-img' src={require('../imagenes/2.jpg')} alt='' />
+<img className='menu__item-img' src={require('../imagenes/show-project2.png')} alt='' />
 <div className='marquee'>
     <div className='marquee__inner' aria-hidden='true'>
          <span>ITE Valencia</span>
@@ -71,7 +71,7 @@ function Project () {
 <div className='menu__item'>
 <BsChevronDoubleRight/>
 <a className='menu__item-link'>Tarot</a>
-<img className='menu__item-img' src={require('../imagenes/3.jpg')} alt='' />
+<img className='menu__item-img' src={require('../imagenes/show-project3.png')} alt='' />
 <div className='marquee'>
     <div className='marquee__inner' aria-hidden='true'>
          <span>Tarot</span>
@@ -94,7 +94,7 @@ function Project () {
 <div className='menu__item'>
 <BsChevronDoubleRight/>
 <a className='menu__item-link'>Groobuy</a>
-<img className='menu__item-img' src={require('../imagenes/4.jpg')} alt='' />
+<img className='menu__item-img' src={require('../imagenes/show-project4.png')} alt='' />
 <div className='marquee'>
     <div className='marquee__inner' aria-hidden='true'>
          <span>Groobuy</span>
@@ -118,7 +118,7 @@ function Project () {
 <div className='menu__item'>
 <BsChevronDoubleRight/>
 <a className='menu__item-link'>Adverspot</a>
-<img className='menu__item-img' src={require('../imagenes/5.jpg')} alt='' />
+<img className='menu__item-img' src={require('../imagenes/show-project5.png')} alt='' />
 <div className='marquee'>
     <div className='marquee__inner' aria-hidden='true'>
          <span>Adverspot</span>

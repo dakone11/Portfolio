@@ -1,6 +1,10 @@
 import React from 'react'
 import Header from '../../componentes/Header';
 import AboutText from '../../componentes/AboutText';
+import Card from '../../componentes/Card';
+
+
+
 export const About = () => {
   return (
     <>
@@ -10,6 +14,11 @@ export const About = () => {
         />
        
          <AboutText/>
+        
+         <Card
+           titulo='Powerfans'
+         />
+        
 </>
   )
 }

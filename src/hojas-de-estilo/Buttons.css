@@ -1,0 +1,38 @@
+.worksmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    
+}
+.buttonworks{
+    background-color:transparent ;
+    color: #121212;
+    padding: 1rem 2rem;
+    border: #131313;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.buttonworks{
+    background-color:transparent ;
+    color: #121212;
+    border: #131313;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.buttonworks:hover{
+    
+}
+
+.buttonworks_all{
+    background-color:transparent ;
+    color: #121212;
+    padding: 1rem 2rem;
+    border: #131313;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+}

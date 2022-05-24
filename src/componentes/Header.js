@@ -3,6 +3,7 @@ import '../hojas-de-estilo/Header.css'
 import Fade from 'react-reveal/Fade';
 import React from "react";
 import Typed from "react-typed";
+import Tilt from 'react-parallax-tilt';
 
 function Header (props) {
 
@@ -29,7 +30,7 @@ function Header (props) {
             <img className="triangulo2"  src={ require('../imagenes/triangulo1.png')} alt=''/>
             <img className="triangulo3" src={ require('../imagenes/triangulo1.png')} alt=''/>
         </div>
-       
+        <Tilt>
         <div className="text-intro">
        
             <h1 className='tittle'>{props.titulo}</h1>
@@ -48,13 +49,14 @@ function Header (props) {
             </div>
            
         </div>
-        
+        </Tilt>
           <div className='arrow'>
                   <span></span>
                   <span></span>
                   <span></span>
 
           </div>
+         
     </div>
 
   );

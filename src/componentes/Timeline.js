@@ -3,7 +3,6 @@ import '../hojas-de-estilo/Timeline.css'
 import Zoom from 'react-reveal/Zoom';
 
 
-
 function Timeline () {
   return (
     
@@ -41,7 +40,7 @@ function Timeline () {
         <li>
         <Zoom>
           <div className='content'>
-            <h3>Frontend Developer</h3>
+            <h3>Multimedia Designer</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                </p>
@@ -55,7 +54,7 @@ function Timeline () {
         <li>
         <Zoom>
           <div className='content'>
-            <h3>Frontend Developer</h3>
+            <h3>Branding</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               </p>
