@@ -3,17 +3,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-   
-    
-}
-.buttonworks{
-    background-color:transparent ;
-    color: #121212;
-    padding: 1rem 2rem;
-    border: #131313;
-    text-align: center;
-    font-weight: 200;
-    font-size: 1.2rem;
 }
 .buttonworks{
     background-color:transparent ;
@@ -22,8 +11,18 @@
     text-align: center;
     font-weight: 200;
     font-size: 1.2rem;
+}
+.buttonworks{
+    background-color:transparent ;
+    color: #323232;
+    border:none;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-left: 3rem;
 }
 .buttonworks:hover{
+    color:#f300b4;
     
 }
 
@@ -31,8 +30,20 @@
     background-color:transparent ;
     color: #121212;
     padding: 1rem 2rem;
-    border: #131313;
+    border: none;
     text-align: center;
     font-weight: 200;
     font-size: 1.2rem;
+}
+.buttonworks_all:hover{
+  color:#f300b4;
+}
+
+
+@media (max-width: 500px) {
+	
+    .buttonworks{ font-weight: 200;
+        font-size: 1rem;
+        padding-left: 0.8rem;
+    }
 }

@@ -1,80 +1,72 @@
-import MenuProject1 from '../imagenes/menu-project1.png';
-import MenuProject2 from '../imagenes/menu-project2.png';
-import MenuProject3 from '../imagenes/menu-project3.png';
-import MenuProject4 from '../imagenes/menu-project4.png';
-import MenuProject5 from '../imagenes/menu-project5.png';
-import MenuProject6 from '../imagenes/menu-project6.png';
-import { SiAdobephotoshop,SiCss3,SiFigma,SiGithub,SiHtml5,SiReact,SiVisualstudiocode,SiSass,SiPhp,SiJavascript } from "react-icons/si";
 
+import { SiAdobeaftereffects,SiAdobeillustrator, SiAdobephotoshop,SiCss3,SiFigma,SiGithub,SiHtml5,SiReact,SiVisualstudiocode,SiSass,SiPhp,SiJavascript } from "react-icons/si";
+import React from 'react';
 
 export default [
     {
         id:1,
-        image:MenuProject1,
+        image:'/menu-project1.png',
         title: 'Powerfans',
         category: 'UI UX',
-        tags: '<SiCss3>',
-        tags1: '<SiCss3>',
-        tags2: '<SiCss3>',
-        tags3: '<SiCss3>',
-        tags4: '<SiCss3>'
+        tags: <SiFigma/>,
+        tags1: <SiHtml5/>,
+        tags2: <SiJavascript/>,
+        tags3: <SiCss3/>,
+        tags4: <SiAdobeaftereffects/>
     },
     {
         id:2,
-        image: MenuProject2,
-        title: 'About me',
+        image:'/menu-project2.png',
+        title: 'Ite Valencia',
         category: 'Web Design',
-        tags: '<SiCss3>',
-        tags1: '<SiCss3>',
-        tags2: '<SiCss3>',
-        tags3: '<SiCss3>',
-        tags4: '<SiCss3>'
+        tags:  <SiHtml5/>,
+        tags1: <SiCss3/>,
+        tags2: <SiPhp/>,
+        tags3: <SiAdobeillustrator/>,
+      
     },
        
     {
         id:3,
-        image: MenuProject3,
-        title: 'ITE Valencia',
+        image:'/menu-project3.png',
+        title: 'Sabiduría Metafísica',
         category: 'Web Design',
-        tags: '<SiCss3>',
-        tags1: '<SiCss3>',
-        tags2: '<SiCss3>',
-        tags3: '<SiCss3>',
-        tags4: '<SiCss3>'
+        tags:  <SiHtml5/>,
+        tags1: <SiCss3/>,
+        tags2: <SiPhp/>,
+        tags3: <SiAdobephotoshop/>
     },
         
     {
         id:4,
-        image: MenuProject4,
-        title: 'Sabiduría metafísica',
-        category: 'Web Design',
-        tags: '<SiCss3>',
-        tags1: '<SiCss3>',
-        tags2: '<SiCss3>',
-        tags3: '<SiCss3>',
-        tags4: '<SiCss3>'
+        image:'/menu-project4.png',
+        title: 'TrasteroPlus',
+        category: 'Branding',
+        tags: <SiAdobeillustrator/>,
+        tags1: <SiAdobephotoshop/>
+       
     },
         
     {
         id:5,
-        image: MenuProject5,
+        image:'/menu-project5.png',
         title: 'trasteroplus',
-        category: 'Branding',
-        tags: '<SiCss3>',
-        tags1: '<SiCss3>',
-        tags2: '<SiCss3>',
-        tags3: '<SiCss3>',
-        tags4: '<SiCss3>'
+        category: 'UI UX',
+        tags: <SiAdobeaftereffects/>,
+        tags1: <SiAdobeillustrator/>,
+        tags2: <SiAdobephotoshop/>,
+        tags3: <SiFigma/>
+       
     },
     {
         id:6,
-        image: MenuProject6,
-        title: 'Groobuy',
-        category: 'Branding',
-        tags: '<SiCss3>',
-        tags1: '<SiCss3>',
-        tags2: '<SiCss3>',
-        tags3: '<SiCss3>',
-        tags4: '<SiCss3>'
+        image:'/menu-project6.png',
+        title: 'About me',
+        category: 'Web Design',
+        tags: <SiFigma/>,
+        tags1: <SiHtml5/>,
+        tags2: <SiCss3/>
+        
+       
     }
 ];

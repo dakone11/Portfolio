@@ -15,14 +15,16 @@ main::before {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 .containerlist h1 span{
 	font-weight: 500;
 	border-bottom: 1px solid #f300b4;
   }
-.containerlist h1 span{
-	font-weight: 200;
-  }
+.containerlist h1 {
+	font-weight: 800;
+}
 
 @keyframes grain {
   0%, 100% { transform:translate(0, 0); }
@@ -304,5 +306,8 @@ margin-bottom: 2rem;
 		transition: all 0.4s;
 		z-index: 5;
 	}
-
+	.containerlist{
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	  }
 }

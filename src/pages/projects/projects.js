@@ -21,6 +21,7 @@ import '../../hojas-de-estilo/project.css'
    return (
     
       <div className="containerlist">
+       <img className="triangulo4" src={ require('../../imagenes/triangulo1.png')} alt=''/>
         <div>
           <h1>Works <span>done</span></h1>
           <Buttons

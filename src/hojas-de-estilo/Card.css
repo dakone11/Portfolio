@@ -12,7 +12,6 @@
     align-items: center;
     box-shadow: rgba(233, 4, 156, 0.4) 2px 2px, rgba(126, 126, 126, 0.3) 10px 10px, rgba(204, 204, 204, 0.2) 15px 15px, rgba(42, 42, 42, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
     overflow: hidden;
-    background: url("../imagenes/menu-project1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 300px;
@@ -74,11 +73,12 @@
     transition: all 0.4s ease;
   }
   .border li{
-    margin: 10px 0;
+    margin: 5px 0;
     transform: translateX(-120px);
-     transition: all 0.4s ease;
-     color:#131313;
-     list-style: none;
+    transition: all 0.4s ease;
+    color:#f300b4;
+    list-style: none;
+    font-size: 25px;
   }
   .border li:nth-child(1){
     transition: all 0.4s ease;
@@ -97,9 +97,9 @@
   }
   .border li i{
     transition: all 0.6s ease;
-    font-size: 22px;
     cursor: pointer;
     color:#131313;
+    
   }
   .border li:hover i{
     color: #f300b4;
@@ -110,3 +110,10 @@
    .card:hover .border ul li{
     transform: translateX(0);
   }
+  @media (max-width: 500px) {
+    .card{
+      margin-left: 1rem;
+    }
+    
+}
+  
