@@ -50,7 +50,7 @@ export default [
     {
         id:5,
         image:'/menu-project5.png',
-        title: 'trasteroplus',
+        title: 'ADVERSPOT',
         category: 'UI UX',
         tags: <SiAdobeaftereffects/>,
         tags1: <SiAdobeillustrator/>,

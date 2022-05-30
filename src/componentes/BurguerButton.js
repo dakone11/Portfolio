@@ -1,21 +1,22 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 function BurguerButton(props) {
   return (
     <Burguer>
-      <div  onClick={props.handleClick} 
-            className={`icon nav-icon-5 ${props.clicked ? 'open' : ''}`}
+      <div
+        onClick={props.handleClick}
+        className={`icon nav-icon-5 ${props.clicked ? "open" : ""}`}
       >
         <span></span>
         <span></span>
         <span></span>
       </div>
     </Burguer>
-  )
+  );
 }
 
-export default BurguerButton
+export default BurguerButton;
 
 const Burguer = styled.div`
   /* nav-icon-5 */
@@ -71,4 +72,4 @@ const Burguer = styled.div`
   transform: rotate(-45deg);
   top: 13px;
 }
-`
+`;

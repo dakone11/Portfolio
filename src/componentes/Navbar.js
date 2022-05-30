@@ -1,35 +1,37 @@
-import React, { useState } from 'react'
-import styled from 'styled-components'
-import BurguerButton from './BurguerButton'
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import styled from "styled-components";
+import BurguerButton from "./BurguerButton";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-
-  const [clicked, setClicked] = useState(false)
+  const [clicked, setClicked] = useState(false);
   const handleClick = () => {
     //cuando esta true lo pasa a false y vice versa
-    setClicked(!clicked)
-  }
+    setClicked(!clicked);
+  };
   return (
     <>
       <NavContainer>
-        <h2>CMR <span>Portfolio</span></h2>
-        <div className={`links ${clicked ? 'active' : ''}`}>
-            <Link  to="/">Home</Link>
-			      <Link to="/About">About</Link>
-            <Link to="/Projects">Projects</Link>
-            <Link to="/Contact">Contact</Link>
+        <h2>
+          CMR <span>Portfolio</span>
+        </h2>
+        <div className={`links ${clicked ? "active" : ""}`}>
+        <NavLink to="/"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Home </NavLink>
+        <NavLink to="/About"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}> About </NavLink>
+        <NavLink to="/Projects"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}> Projects </NavLink>
+        <NavLink to="/Contact"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}> Contact </NavLink>
+
         </div>
-         <div className='burguer'>
-            <BurguerButton clicked={clicked} handleClick={handleClick} />
-         </div>
-             <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
+        <div className="burguer">
+          <BurguerButton clicked={clicked} handleClick={handleClick} />
+        </div>
+        <BgDiv className={`initial ${clicked ? " active" : ""}`}></BgDiv>
       </NavContainer>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
 
 const NavContainer = styled.nav`
   h2{
@@ -54,6 +56,8 @@ const NavContainer = styled.nav`
     margin-right: 1rem;
     
   }
+  
+  
   .links{
     position: absolute;
     top: -700px;
@@ -109,7 +113,7 @@ const NavContainer = styled.nav`
       display: none;
     }
   }
-`
+`;
 
 const BgDiv = styled.div`
   background-color: #cccbcbe8;
@@ -129,4 +133,4 @@ const BgDiv = styled.div`
     z-index: 8;
    
   }
-`
+`;

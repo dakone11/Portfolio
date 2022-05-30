@@ -170,10 +170,12 @@
 .buttons {
     display: flex;
     margin-top: 1rem;
+    margin-bottom: 2rem;
+
   }
   .buttons a {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem ;
     border: 1px solid #131313;
     color: #131313;
     text-align: center;
@@ -254,7 +256,7 @@
   
   
 
-  @media (max-width: 48em) {
+  @media (max-width: 500px) {
     .carlos-imagen {
       margin-top: 10px;
       left: -30%;
@@ -277,6 +279,16 @@
       left: 4%;
       transform: rotate(130deg);
       animation: triangulo2 2s infinite alternate-reverse ease-in-out;
+  }
+  .buttons a {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: 1px solid #131313;
+    color: #131313;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-right: 1rem;
   }
 
   /*.effect-imagen {
