@@ -1,7 +1,7 @@
 import "../hojas-de-estilo/project.css";
 import Fade from "react-reveal/Fade";
 import React from "react";
-import { GrProjects } from "react-icons/gr";
+import { CgMenuGridR } from "react-icons/cg";
 import { BsChevronDoubleRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -13,7 +13,7 @@ function Project() {
           <p>
             view <span>projects</span>
           </p>
-          <Link to="/Project"> <GrProjects /></Link>
+          <Link to="/Project"> <CgMenuGridR /></Link>
         </div>
       </Fade>
 

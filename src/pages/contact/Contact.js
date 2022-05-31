@@ -17,8 +17,8 @@ const Contact = () => {
                   A fan engagement APP that capitalizes and monetizes the millions of virtual supporters who do not attend the stadium.
                   Design of a corporate website with the function of downloading the app, registering and signing up for the newslatter'
 
-       titulo2='UI & UX Design'
-       subtitulo1='Figma Design, Benchmark, Objetive & Goal and User Persona'
+       titulo2='UI & UX '
+       subtitulo1='Figma Design, Benchmark, Objetive, Goals and User Persona'
        descripción1='Objective: Capitalize and monetize virtual fans through the sale of Virtual Tickets, Advertising and FanCoins.
                     Organize a virtual competition between real hobbies with important prizes.
                     Transform the spectators into protagonists of the match.
@@ -35,7 +35,8 @@ const Contact = () => {
                      personal as their tastes or hobbies, link of the consumer with the brand.'
     imagendescription1='powerfans'
     imagendescription2='powerfans2'
-    titulo3='Web Design'
+    titulo3='Web '
+    subtitulo2='One page promotional website design'
     descripción4='Design a responsive web page in order to make the user download the app and be able to register or buy the promotion.
                   It has been made with the programming languages ​​HTML5, JavaScript, CSS.'
     descripción5='There has been use of modal, carousel slider, accordion and an interactive navigation menu.

@@ -48,7 +48,10 @@ const ShowProject = (props) => {
       <div class="container_project">
         <div class="right_description">
           <div class="content_description">
-            <h2>{props.titulo2}</h2>
+            <h2>
+                {props.titulo2}
+                <span>Design</span>
+              </h2>
 
             <h3>{props.subtitulo1}</h3>
             <p>
@@ -82,7 +85,10 @@ const ShowProject = (props) => {
         
           <div className="content_description">
          
-            <h2> {props.titulo3}</h2>
+          <h2>
+                {props.titulo3}
+                <span>Design</span>
+              </h2>
             
 
             <h3> {props.subtitulo2}</h3>
