@@ -1,9 +1,9 @@
 import React from 'react'
 import ShowProject from '../projects/ShowProject';
 
-const Contact = () => {
+const Powerfans = (props) => {
   return (
-      <div>
+    <div>
  <ShowProject
         imagenintro='powerfans'
         titulo='Powerfans'
@@ -50,7 +50,7 @@ const Contact = () => {
 
  />
  </div>
-  );
+  )
 }
 
-export default Contact;
+export default Powerfans;

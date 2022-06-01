@@ -16,12 +16,39 @@ function Navbar() {
           CMR <span>Portfolio</span>
         </h2>
         <div className={`links ${clicked ? "active" : ""}`}>
-        <NavLink to="/"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}>Home </NavLink>
-        <NavLink to="/About"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}> About </NavLink>
-        <NavLink to="/Projects"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}> Projects </NavLink>
-        <NavLink to="/Contact"className={isActive =>"nav-link" + (!isActive ? " unselected" : "")}> Contact </NavLink>
-
+          <NavLink
+            to="/"
+            className={(isActive) =>
+              "nav-link" + (!isActive ? " unselected" : "")}
+          >
+            Home{" "}
+          </NavLink>
+          <NavLink
+            to="/About"
+            className={(isActive) =>
+              "nav-link" + (!isActive ? " unselected" : "")}
+          >
+            {" "}
+            About{" "}
+          </NavLink>
+          <NavLink
+            to="/Projects"
+            className={(isActive) =>
+              "nav-link" + (!isActive ? " unselected" : "")}
+          >
+            {" "}
+            Projects{" "}
+          </NavLink>
+          <NavLink
+            to="/Contact"
+            className={(isActive) =>
+              "nav-link" + (!isActive ? " unselected" : "")}
+          >
+            {" "}
+            Contact{" "}
+          </NavLink>
         </div>
+
         <div className="burguer">
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
@@ -35,18 +62,18 @@ export default Navbar;
 
 const NavContainer = styled.nav`
   h2{
-    color: #222;
-    font-weight: 400;
+      color: #222;
+      font-weight: 400;
     span{
       font-weight: bold;
     }
   }
-  padding: .4rem;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index:10;
+    padding: .4rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:10;
   
   
   a{
@@ -56,6 +83,7 @@ const NavContainer = styled.nav`
     margin-right: 1rem;
     
   }
+ 
   
   
   .links{
@@ -99,7 +127,7 @@ const NavContainer = styled.nav`
       font-family: 'Kanit', sans-serif;
       text-transform:uppercase;
       font-size: 3rem;
-      color:#9401B1;
+      color:#f300b4;
       border-bottom:#f8f7f7e8 1px solid;
       margin-top:1rem;
     }
@@ -134,3 +162,4 @@ const BgDiv = styled.div`
    
   }
 `;
+

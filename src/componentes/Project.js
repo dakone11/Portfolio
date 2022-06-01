@@ -20,7 +20,7 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">POWERFANS</a>
+          <Link className="menu__item-link" to="/powerfans">POWERFANS</Link> 
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project1.png")}

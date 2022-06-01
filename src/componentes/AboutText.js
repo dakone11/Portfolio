@@ -18,46 +18,58 @@ function AboutText() {
               {" "}
               <span>My</span> History
             </h2>
-            Im Carlos Martínez Ripollés. Web and multimedia designer. I love
-            traveling to remote places, I kayaking in the amazon and I fulfilled
-            my dream, It was exciting. I enjoy designing and drawing accompanied
-            by Rock English and especially going to concerts. I work daily with
-            all major creative software, be it Photoshop, Illustrator, Figma...
+              <p>
+                  Im Carlos Martínez Ripollés. Web and multimedia designer. I started my studies
+                  related to design with a professional photography and image training degree,
+                  a few years later I started a multimedia design course at ESAT where I learned
+                  to use graphic design, animation and web design tools. Lastly, I studied a
+                    master's degree in web programming and UI UX where I have been specialized
+                    and have delved deeper into these areas.
+              </p>
             <h2>
               {" "}
               <span>About</span> Design
             </h2>
-            My approach to user interface design revolves around ensuring that
-            design principles and decisions can be carried through from start to
-            finish I plan, design, build, test and replicate digital products. I
-            have the ability to create different multimedia content to connect
-            through different channels with your potential users
+               <p>
+                 Ability to know the concepts of each project. I work with UX / UI web sketches on the Figma platform.
+                  Design of all kinds of front-ends for web, e-commerce and applications and (UI). Design of banners
+                   and Email marketing campaigns as well as design of corporate identity and derivatives thereof 
+                   depending on the nature of the project. I like to think about the designs for a better orientation
+                    in the constant improvement of the user experience (UX) and I have an interest in technology and 
+                    the latest trends.
+
+               </p>
           </div>
         </Zoom>
         <Zoom>
           <div className="text_about">
-            <p>
               <h2>
                 {" "}
                 <span>About</span> Developer
               </h2>
-              I consider myself a person with Creativity, empathy, organization,
-              always open mind, and communicative. I always try to be emotional
-              and create a good relationship between the design and the user . I
-              complement more with UX UI for my design and illustration skills.
+             <p>
+              I made layout of web applications. Application of responsive designs
+              with the programming languages HTML5, CSS3, JavaScript. and use of the React library.</p> 
+              <p>
+              Through the development tool: Visual
+              Studio Code I try to develop following clean code principles, I also know how to use figma and code the design.
+              I like to watch programming tutorials and follow social networks to learn or ask questions
+              </p>
+             
               <h2>
                 {" "}
                 <span>My</span> Hobbies
               </h2>
-              I am completing my knowledge React and JS codes. I finish this
-              year a Master for front end developer in ESAT Valencia.. Design
-              and code! could not exist without the other. Having said that, I
-              find joy in development by bringing design to life, which is why I
-              would not classify myself as a "hardcore developer", but as one
-              who can bring two philosophies and ways of thinking together.
-              Being multidisciplinary is a big part of my ethics. Be it design,
-              development, video or UX; I'm there!
-            </p>
+              <p>
+                I am an active person and I like to travel to remote places, I have fulfilled my dream kayaking in the Amazon, it was unforgettable!</p>
+              <p>
+                I like to go to concerts and listen to music while I design, but when I'm programming I need silence.
+              </p>
+             <p>
+             I like to draw since I was a child and I do digital and hand illustrations, graffiti lover
+             </p>
+             
+            
           </div>
         </Zoom>
         <Skills />

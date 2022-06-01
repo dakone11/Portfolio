@@ -44,8 +44,9 @@ const ShowProject = (props) => {
        
       </div>
       
-
+     
       <div class="container_project">
+     
         <div class="right_description">
           <div class="content_description">
             <h2>
@@ -55,31 +56,36 @@ const ShowProject = (props) => {
 
             <h3>{props.subtitulo1}</h3>
             <p>
-            {props.descripción1}
+            {props.descrip1}
             </p>
             <p>
-            {props.descripción2}
+            {props.descrip2}
             </p>
             <p>
-            {props.descripción3}
+            {props.descrip3}
             </p>
           </div>
         </div>
+        <Zoom> 
         <div className="left_description">
           <img
           src={require(`../../imagenes/description-${props.imagendescription1}.png`)}
-          alt="imagen de carlos frontal"
+          alt="project image from  portfolio carlos"
         />
         </div>
+        </Zoom>
       </div>
+     
       <div className="container_project">
+      <Zoom> 
         <div className="left_description">
         <img
          src={require(`../../imagenes/description-${props.imagendescription2}.png`)}
-         alt="imagen de carlos frontal"
+         alt="project image from  portfolio carlos"
        />
           
         </div>
+        </Zoom>
         <div className="right_description">
         
         
@@ -93,17 +99,48 @@ const ShowProject = (props) => {
 
             <h3> {props.subtitulo2}</h3>
             <p>
-            {props.descripción4}
+            {props.descrip4}
             </p>
             <p>
-            {props.descripción5}
+            {props.descrip5}
             </p>
             <p>
-            {props.descripción6}
+            {props.descrip6}
             </p>
           </div>
         </div>
       </div>
+      <div class="container_project">
+        <div class="right_description">
+          <div class="content_description">
+            <h2>
+                {props.titulo4}
+                <span>Design</span>
+              </h2>
+
+            <h3>{props.subtitulo3}</h3>
+            <p>
+            {props.descrip7}
+            </p>
+            <p>
+            {props.descrip8}
+            </p>
+            <p>
+            {props.descrip9}
+            </p>
+          </div>
+        </div>
+        <Zoom> 
+        <div className="left_description">
+          <img
+          src={require(`../../imagenes/description-${props.imagendescription3}.png`)}
+          alt="project image from  portfolio carlos"
+        />
+        </div>
+        </Zoom> 
+      </div>
+
+      
       <div className="pagination">
       
         <div className="pagination_left">

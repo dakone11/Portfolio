@@ -7,6 +7,7 @@ import Home from './pages/home/Home';
 import Projects from './pages/projects/Projects';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
+import Powerfans from './pages/projects/Powerfans';
 import { Routes,Route } from 'react-router-dom';
 import ScrollToTop from './utils/ScrollToTop';
 
@@ -26,11 +27,10 @@ function App() {
        <ScrollToTop/>
        <Routes>
         <Route path="/" element={<Home/>} />
-				
         <Route path="/about" element={<About />} />
-				
         <Route path="*" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/powerfans" element={<Powerfans />} />
       </Routes>
       
        <Footer/>

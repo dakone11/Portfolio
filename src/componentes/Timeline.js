@@ -11,9 +11,9 @@ function Timeline() {
             <div className="content">
               <h3>UX Designer & UI Designer</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
+              Create high-fidelity prototypes and interfaces from a design system.
+              I am comfortable with FIGMA and other design tools such as Photoshop.
+              Prototyping, creation of user personas, participation in user testing
               </p>
             </div>
           </Zoom>
@@ -27,9 +27,7 @@ function Timeline() {
             <div className="content">
               <h3>Frontend Developer</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
+              Knowledge of responsive web layout HTML5, CSS3, Javascript, React, PHP, Wordpress, version control with GIT, use of preprocessors SCSS.
               </p>
             </div>
           </Zoom>
@@ -43,9 +41,7 @@ function Timeline() {
             <div className="content">
               <h3>Multimedia Designer</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
+              Experience in video editing, knowledge of After Effects and the adobe package. Good use of composition and design, photo retouching.
               </p>
             </div>
           </Zoom>
@@ -59,9 +55,7 @@ function Timeline() {
             <div className="content">
               <h3>Branding</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
+              Create a corporate identity manual, define and justify its use of color and typography, know how to conceptualize and adapt the design to the corporate image of the company.
               </p>
             </div>
           </Zoom>
