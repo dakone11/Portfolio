@@ -18,7 +18,7 @@ footer {
     min-height: 100vh;
     align-items: center;
     text-align:left;
-    background-image: url(../imagenes/intro-effects3.png) ; 
+    background-image:var(--background-image) ; 
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 50% 50%;
@@ -30,7 +30,7 @@ footer {
   
   @keyframes bg {
     0% {
-      background-position: left center;
+      background-position: top center;
       background-size: 25%;
     }
   
@@ -55,7 +55,7 @@ footer {
   }
   
   .heading-wrapper .heading .separator {
-    background: #f300b4;
+    background:  var(--accent);
     width: 350px;
     height: 2px;
     margin: 0;
@@ -83,7 +83,7 @@ footer {
   }
   
   .social a :hover {
-    color: #f300b4;
+    color:  var(--accent);
     transform:translateX(-5px);
 
   }
@@ -101,9 +101,9 @@ footer {
   input[type="text"]:not(output):not(:focus),
   input[type="email"]:not(output):not(:focus),
   textarea {
-    border-bottom: 1px solid #f300b4;
+    border-bottom: 1px solid  var(--accent);
     background:#eeeeee44;
-    color:#131313 ;
+    color:var(--text-primary);
     font-size: 1.2rem;
     box-shadow: none;
     outline: none;
@@ -115,12 +115,14 @@ footer {
   input[type="text"]:not(output):focus,
   input[type="email"]:not(output):focus,
   textarea:focus {
-    border-bottom: 1px solid #f300b4;
+    border-bottom: 1px solid  var(--accent);
+    border-radius: 15px;
+    background:#b3b1b144;
   }
   
   input[type="submit"] {
-    background: #f300b4;
-    color:#ffffff;
+    background:  var(--accent);
+    color:var(--text-hover);
     margin-top: 1rem;
     max-width: 200px;
     float: right;
@@ -130,12 +132,12 @@ footer {
   input[type="submit"]:focus {
     cursor: pointer;
     background: transparent;
-    border: 1px solid #f300b4;
-    color: #131313;
+    border: 1px solid  var(--accent);
+    color: var(--text-primary);
   }
   
   ::placeholder {
-    color:#333;
+    color:var(--text-primary);
   }
   
   
@@ -154,7 +156,7 @@ footer {
     }
     .social{
       display: block;
-      color:blueviolet
+      color: var(--accent);
   }
   form {
     width: 80%;

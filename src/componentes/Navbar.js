@@ -62,10 +62,11 @@ export default Navbar;
 
 const NavContainer = styled.nav`
   h2{
-      color: #222;
+      color:var(--accent);
       font-weight: 400;
     span{
       font-weight: bold;
+      color:var(--text-primary);
     }
   }
     padding: .4rem;
@@ -78,7 +79,7 @@ const NavContainer = styled.nav`
   
   a{
     z-index:10;
-    color:#222;
+    color:var(--text-primary);
     text-decoration: none;
     margin-right: 1rem;
     
@@ -96,7 +97,7 @@ const NavContainer = styled.nav`
     text-align: center;
     transition: all .5s ease;
     a{
-      color: white;
+      color:var(--text-primary);
       font-size: 2rem;
       display: block;
       
@@ -106,7 +107,7 @@ const NavContainer = styled.nav`
       margin: 0;
       a{
         font-size: 1rem;
-        color: #222;
+        color:var(--text-primary);
         display: inline;
       }
       display: block;
@@ -127,12 +128,12 @@ const NavContainer = styled.nav`
       font-family: 'Kanit', sans-serif;
       text-transform:uppercase;
       font-size: 3rem;
-      color:#f300b4;
+      color:var(--accent);
       border-bottom:#f8f7f7e8 1px solid;
       margin-top:1rem;
     }
     a:hover {
-      color:#131313;
+      color:var(--text-primary);
       font-weight:700;
     }
   }
@@ -144,7 +145,7 @@ const NavContainer = styled.nav`
 `;
 
 const BgDiv = styled.div`
-  background-color: #cccbcbe8;
+  background-color:var(--background-color-nav);
   position: absolute;
   top: -1000px;
   left: -1000px;

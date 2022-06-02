@@ -23,17 +23,17 @@ function Header(props) {
         />
         <img
           className="triangulo1"
-          src={require("../imagenes/triaungulo2.png")}
+          src={require("../imagenes/triaungulo2-dark.png")}
           alt="imagen de un triangulo"
         />
         <img
           className="triangulo2"
-          src={require("../imagenes/triangulo1.png")}
+          src={require("../imagenes/triangulo1-dark.png")}
           alt="imagen de un triangulo"
         />
         <img
           className="triangulo3"
-          src={require("../imagenes/triangulo1.png")}
+          src={require("../imagenes/triangulo1-dark.png")}
           alt="imagen de un triangulo"
         />
       </div>

@@ -20,7 +20,9 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <Link className="menu__item-link" to="/powerfans">POWERFANS</Link> 
+          <Link className="menu__item-link" to="/powerfans">
+         <Fade bottom cascade>POWERFANS
+          </Fade></Link> 
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project1.png")}
@@ -48,7 +50,8 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">ITE Valencia</a>
+          <a className="menu__item-link">
+         <Fade bottom cascade>ITE Valencia</Fade></a>
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project2.png")}
@@ -75,7 +78,8 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">Tarot</a>
+          <a className="menu__item-link">
+         <Fade bottom cascade>Tarot</Fade></a>
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project3.png")}
@@ -102,7 +106,8 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">Groobuy</a>
+          <a className="menu__item-link">
+         <Fade bottom cascade>Groobuy</Fade></a>
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project4.png")}
@@ -130,7 +135,8 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">Adverspot</a>
+          <a className="menu__item-link">
+         <Fade bottom cascade> Adverspot</Fade></a>
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project5.png")}

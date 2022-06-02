@@ -20,7 +20,7 @@ main::before {
 }
 .containerlist h1 span{
 	font-weight: 500;
-	border-bottom: 1px solid #f300b4;
+	border-bottom: 1px solid var(--accent);
   }
 .containerlist h1 {
 	font-weight: 800;
@@ -65,23 +65,24 @@ main::before {
 }
 .menu_all_projects p{
 	margin-right: 1rem;	
-	color:rgb(59, 59, 59);
 	margin-bottom: 2rem;
 }
 .menu_all_projects p span{
-	color:#131313;
+	color:var(--text-primary);
 	font-weight: 700;	
 }
 .menu_all_projects a{
-color:#131313;
+color:var(--text-primary);
 font-size: 2.2rem;
 margin-bottom: 2rem;
+color:var(--text-primary);
 		
 }
 .menu_all_projects a:hover{
-	color:#f300b4;
+	color: var(--accent);;
 	font-size: 2.2rem;
 	margin-bottom: 2rem;
+	
 			
 	}
 
@@ -101,7 +102,7 @@ margin-bottom: 2rem;
 	display: inline-block;
 	cursor: pointer;
 	position: relative;
-	-webkit-text-stroke: 3.5px #f300b4;
+	-webkit-text-stroke: 3.5px  var(--accent);
 
 	-webkit-text-fill-color: transparent;
 
@@ -134,7 +135,7 @@ margin-bottom: 2rem;
 	left: 100%;
 	top: 50%;
 	transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,90px,0);
-	outline: 1px solid #f300b4;
+	outline: 1px solid  var(--accent);
 	outline-offset: 5px;		
 }
 
@@ -150,7 +151,7 @@ margin-bottom: 2rem;
 	left: 0;
 	overflow: hidden;
 	pointer-events: none;
-	mix-blend-mode:difference;
+	mix-blend-mode:var(--mix-blend-mode);
 }
 
 .marquee__inner {
@@ -208,7 +209,7 @@ margin-bottom: 2rem;
 	height: 20px;
 }
 .pl:before, .pl:after {
-	background:#131313;
+	background: var(--text-primary);
 	content: "";
 	display: block;
 	position: absolute;
@@ -220,6 +221,10 @@ margin-bottom: 2rem;
 	clip-path: polygon(0 0,100% 0,50% 100%);
 	-webkit-clip-path: polygon(0 0,100% 0,50% 100%);
 }
+span{
+	color: var(--text-primary);
+}
+
 
 /* Origami */
 .pl-origami {
@@ -273,7 +278,7 @@ margin-bottom: 2rem;
 		line-height: 2.50;
 	}
 	.menu__item-link {
-		-webkit-text-stroke: 2.5px #f300b4;
+		-webkit-text-stroke: 2.5px  var(--accent);;
 	
 	}
 	
@@ -288,7 +293,7 @@ margin-bottom: 2rem;
 		line-height: 1.50;
 	}
 	.menu__item-link {
-		-webkit-text-stroke: 1.5px #f300b4;
+		-webkit-text-stroke: 1.5px  var(--accent);
 	
 	}
 	.menu__item-img {
@@ -300,7 +305,7 @@ margin-bottom: 2rem;
 		left: 100%;
 		top: 50%;
 		transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,90px,0);
-		outline: 1px solid #f300b4;
+		outline: 1px solid  var(--accent);
 		outline-offset: 5px;
 		
 		

@@ -6,13 +6,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(../imagenes/intro-effects3.png) ; 
+  background-image: var(--background-image) ; 
   background-repeat: no-repeat;
   background-size:cover;
   background-position: 50% 50%;
   overflow: hidden;
   animation: bg 5s ease 0s 1 normal forwards;
   position: relative;
+  margin-bottom: 50px;
   
 }
 
@@ -176,29 +177,29 @@
   .buttons a {
     width: 100%;
     padding: 1rem ;
-    border: 1px solid #131313;
-    color: #131313;
+    border: 1px solid var(--text-primary);
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;    
     font-size: 1rem;
     margin-right: 1rem;
+    color: var(--text-primary);
   }
   .buttons a:hover{
-    border: 1px solid #ffffff3d;
+    border: 1px solid var(--text-primary);
     transform: translateY(-2px);
-    box-shadow: 0 10px  26px -20px #f300b4;
+    box-shadow: 0 10px  26px -20px  var(--accent);
   }
   
   .buttons a.cta{
-    background: #f300b4;
+    background:  var(--accent);
     border: 1px solid transparent;
-    color: #fafafa;
-    font-weight: bold;
+    color: var(--text-hover); 
+    font-weight: 500;
   }
   .buttons a.cta:hover{
     background: transparent;
-    border: 1px solid #f300b4;
-    color: #131313;
+    border: 1px solid  var(--accent);
+    color: var(--text-primary);
   }
   .text-effect{
     font-size: 22px;
@@ -207,11 +208,11 @@
   }
   .text-effect span{
     font-size: inherit;
-   color:#f300b4;
+   color: var(--accent);
   }
   .text-effect a{
     font-size: 22px;
-    color: #131313;
+    color: var(--text-primary);
   }
   
   .arrow {
@@ -227,8 +228,8 @@
     display: block;
     width: 15px;
     height: 15px;
-    border-bottom: 2px solid #131313;
-    border-right: 2px solid #ff03c8;
+    border-bottom: 2px solid var(--text-primary);
+    border-right: 2px solid  var(--accent);
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -283,10 +284,6 @@
   .buttons a {
     width: 100%;
     padding: 0.7rem 1rem;
-    border: 1px solid #131313;
-    color: #131313;
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1rem;
     margin-right: 1rem;
   }

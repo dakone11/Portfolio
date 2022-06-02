@@ -6,15 +6,15 @@
 }
 .buttonworks{
     background-color:transparent ;
-    color: #121212;
-    border: #131313;
+    color: var(--text-secondary);
+    border: var(--text-secondary);
     text-align: center;
     font-weight: 200;
     font-size: 1.2rem;
 }
 .buttonworks{
     background-color:transparent ;
-    color: #323232;
+    color: var(--text-secondary);
     border:none;
     text-align: center;
     font-weight: 200;
@@ -22,13 +22,13 @@
     padding-left: 3rem;
 }
 .buttonworks:hover{
-    color:#f300b4;
+    color:var(--accent);
     
 }
 
 .buttonworks_all{
     background-color:transparent ;
-    color: #121212;
+    color: var(--text-secondary);
     padding: 1rem 2rem;
     border: none;
     text-align: center;
@@ -36,7 +36,7 @@
     font-size: 1.2rem;
 }
 .buttonworks_all:hover{
-  color:#f300b4;
+  color:var(--accent);
 }
 
 

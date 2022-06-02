@@ -25,7 +25,7 @@
         bottom: 17px;
         width: 210px;
         height: 2px;
-        background-color: #f300b4;
+        background-color: var(--accent);
     }
 
    
