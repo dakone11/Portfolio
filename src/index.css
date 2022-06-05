@@ -15,6 +15,7 @@ body {
   --background-image: url(./imagenes/intro-effects3.png) ; 
   --background-color-nav: #cccbcbe8;
   --mix-blend-mode:difference;
+  --cursor-color: #f300b4;
 }
 
 [data-theme='dark'] {
@@ -29,6 +30,7 @@ body {
   --background-image: url(./imagenes/intro-effects-dark.png) ; 
   --background-color-nav: #141414e8;
   --mix-blend-mode:multiply;
+  --cursor-color: #DDF15D;
   
 }
 
@@ -38,18 +40,18 @@ body {
   background: var(--background);
 }
 .theme-toggle a {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   cursor: pointer;
-  z-index:1000;
+  z-index:900;
   color: var(--accent)
 }
 
 .theme-toggle {
   text-align: center;
-  position:fixed;
+  position:absolute;
   margin:0 auto;
-  top:70px;
-  right:20px;
+  top:10px;
+  left:50%;
   cursor: pointer;
 
 }

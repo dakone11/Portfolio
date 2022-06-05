@@ -80,7 +80,7 @@
       color:  var(--accent);
       display: inline-block;
       margin-bottom:1.2rem;
-      margin-left:1.2rem;
+      margin-right:1.2rem;
   }
   .left_description{
       width:50%;
@@ -130,7 +130,7 @@
   .content_description p {
       font-weight: 200;
       padding: 1rem;
-      width: 100%;
+      width: 90%;
       text-align: justify;
   }
   

@@ -1,12 +1,7 @@
-import React from 'react'
-import ShowProject from '../projects/ShowProject';
+import React from "react";
 
 const Contact = () => {
-  return (
-      <div>
- 
- </div>
-  );
-}
+  return <div></div>;
+};
 
 export default Contact;

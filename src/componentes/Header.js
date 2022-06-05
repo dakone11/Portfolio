@@ -5,6 +5,7 @@ import React from "react";
 import Typed from "react-typed";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
+import { URL } from '../constants/url.constants'; 
 
 function Header(props) {
   const textLines = [
@@ -45,8 +46,8 @@ function Header(props) {
           </Zoom>
           <div className="buttons">
             
-             <Link to="/Project">My Projects</Link>
-             <Link  className="cta" to="/Contact">Get in touch</Link>
+             <Link to={URL.PROJECTS}>My Projects</Link>
+             <Link  className="cta" to={URL.CONTACT}>Get in touch</Link>
           
           </div>
           <div className="text-effect">

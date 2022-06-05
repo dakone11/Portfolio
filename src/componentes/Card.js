@@ -1,25 +1,39 @@
 import React from "react";
 import "../hojas-de-estilo/Card.css";
 
-const Card = ({ item }) => {
+const Card = ({ items, onRedirect }) => {
+
+  const getInfoPage = (id, next) => { 
+    const currentId = next ? id + 1 : id - 1;
+    const item = items.find((item) => item.id === currentId);
+    return item && item.title ? {title: item.title, path: item.path} : undefined;
+  }
+
+  const onLoadInfo = (id, path) => {
+    const nextInfoPage = getInfoPage(id, true);
+    const previousInfoPage = getInfoPage(id, false);
+    onRedirect(path, nextInfoPage, previousInfoPage);
+  }
+
   return (
     <div className="containerlist">
-      {item.map((Val) => {
+      {items.map((data) => {
         return (
           <div
-            style={{ backgroundImage: `url(${Val.image})` }}
+            style={{ backgroundImage: `url(${data.image})` }}
             className="card"
-            key={Val.id}
+            key={data.id}
+            onClick={() => onLoadInfo(data.id, data.path)}
           >
             <div className="border">
-              <h1>{Val.title}</h1>
+              <h1>{data.title}</h1>
               <button>Go Project </button>
               <ul>
-                <li>{Val.tags}</li>
-                <li>{Val.tags1}</li>
-                <li>{Val.tags2}</li>
-                <li>{Val.tags3}</li>
-                <li>{Val.tags4}</li>
+                <li>{data.tags}</li>
+                <li>{data.tags1}</li>
+                <li>{data.tags2}</li>
+                <li>{data.tags3}</li>
+                <li>{data.tags4}</li>
               </ul>
             </div>
           </div>

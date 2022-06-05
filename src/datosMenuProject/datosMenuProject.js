@@ -1,10 +1,12 @@
 
-import { SiAdobeaftereffects,SiAdobeillustrator, SiAdobephotoshop,SiCss3,SiFigma,SiGithub,SiHtml5,SiReact,SiVisualstudiocode,SiSass,SiPhp,SiJavascript } from "react-icons/si";
 import React from 'react';
+import { SiAdobeaftereffects,SiAdobeillustrator, SiAdobephotoshop,SiCss3,SiFigma,SiGithub,SiHtml5,SiReact,SiVisualstudiocode,SiSass,SiPhp,SiJavascript } from "react-icons/si";
+import { URL } from '../constants/url.constants';
 
 export default [
     {
         id:1,
+        path: URL.POWERFANS,
         image:'/menu-project1.png',
         title: 'Powerfans',
         category: 'UI UX',
@@ -16,6 +18,7 @@ export default [
     },
     {
         id:2,
+        path: URL.ITEVALENCIA,
         image:'/menu-project2.png',
         title: 'Ite Valencia',
         category: 'Web Design',
@@ -25,9 +28,9 @@ export default [
         tags3: <SiAdobeillustrator/>,
       
     },
-       
     {
         id:3,
+        path: URL.TAROT,
         image:'/menu-project3.png',
         title: 'Sabiduría Metafísica',
         category: 'Web Design',
@@ -36,9 +39,9 @@ export default [
         tags2: <SiPhp/>,
         tags3: <SiAdobephotoshop/>
     },
-        
     {
         id:4,
+        path: URL.TRASTEROS,
         image:'/menu-project4.png',
         title: 'TrasteroPlus',
         category: 'Branding',
@@ -46,9 +49,9 @@ export default [
         tags1: <SiAdobephotoshop/>
        
     },
-        
     {
         id:5,
+        path: URL.ADVERSPOT,
         image:'/menu-project5.png',
         title: 'ADVERSPOT',
         category: 'UI UX',
@@ -60,13 +63,12 @@ export default [
     },
     {
         id:6,
+        path: URL.ABOUTME,
         image:'/menu-project6.png',
         title: 'About me',
         category: 'Web Design',
         tags: <SiFigma/>,
         tags1: <SiHtml5/>,
         tags2: <SiCss3/>
-        
-       
     }
 ];

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate  } from "react-router-dom";
 import Data from '../../datosMenuProject/datosMenuProject';
 import Card from "../../componentes/Card";
 import Buttons from "../../componentes/Buttons";
@@ -6,7 +7,7 @@ import '../../hojas-de-estilo/project.css'
 
  
  const Projects = () => {
-
+  const navigate = useNavigate ();
   const [item, setItem] = useState(Data);
 
   const menuItems = [...new Set(Data.map((Val) => Val.category))];
@@ -17,6 +18,11 @@ import '../../hojas-de-estilo/project.css'
     });
     setItem(newItem);
   };
+
+  const onRedirectCard = (path, nextInfoPage, previousInfoPage) => {
+    const info = {path: path, nextInfo: nextInfoPage, previousInfo: previousInfoPage};
+    navigate(path, { state: info } );
+  }
 
    return (
     
@@ -29,7 +35,7 @@ import '../../hojas-de-estilo/project.css'
             setItem={setItem}
             menuItems={menuItems}
           />
-          <Card item={item} />
+          <Card items={item} onRedirect={onRedirectCard} />
         </div>
       </div>
     
