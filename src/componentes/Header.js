@@ -1,13 +1,14 @@
-
 import "../hojas-de-estilo/Header.css";
 import Zoom from "react-reveal/Zoom";
 import React from "react";
 import Typed from "react-typed";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
-import { URL } from '../constants/url.constants'; 
+import { URL } from "../constants/url.constants";
+import { THEME } from "../constants/theme.constants";
 
 function Header(props) {
+  const { theme } = props;
   const textLines = [
     `Hey! Check out my projects`,
     `work made with love`,
@@ -17,38 +18,65 @@ function Header(props) {
   return (
     <div className="container">
       <div className="intro-container">
-        <img
-          className="carlos-imagen"
-          src={require(`../imagenes/header-${props.imagen}.png`)}
-          alt="imagen de carlos frontal"
-        />
-        <img
-          className="triangulo1"
-          src={require("../imagenes/triaungulo2-dark.png")}
-          alt="imagen de un triangulo"
-        />
-        <img
-          className="triangulo2"
-          src={require("../imagenes/triangulo1-dark.png")}
-          alt="imagen de un triangulo"
-        />
-        <img
-          className="triangulo3"
-          src={require("../imagenes/triangulo1-dark.png")}
-          alt="imagen de un triangulo"
-        />
+        {theme === THEME.LIGHT ? (
+          <>
+            <img
+              className="carlos-imagen"
+              src={require(`../imagenes/header-${props.imagen}.png`)}
+              alt="imagen de carlos frontal"
+            />
+            <img
+              className="triangulo1"
+              src={require("../imagenes/triaungulo2.png")}
+              alt="imagen de un triangulo"
+            />
+            <img
+              className="triangulo2"
+              src={require("../imagenes/triangulo1.png")}
+              alt="imagen de un triangulo"
+            />
+            <img
+              className="triangulo3"
+              src={require("../imagenes/triangulo1.png")}
+              alt="imagen de un triangulo"
+            />
+          </>
+        ) : (
+          <>
+          <img
+              className="carlos-imagen"
+              src={require(`../imagenes/header-${props.imagen}.png`)}
+              alt="imagen de carlos frontal"
+            />
+            <img
+              className="triangulo1"
+              src={require("../imagenes/triaungulo2-dark.png")}
+              alt="imagen de un triangulo"
+            />
+            <img
+              className="triangulo2"
+              src={require("../imagenes/triangulo1-dark.png")}
+              alt="imagen de un triangulo"
+            />
+            <img
+              className="triangulo3"
+              src={require("../imagenes/triangulo1-dark.png")}
+              alt="imagen de un triangulo"
+            />
+          </>
+        )}
       </div>
       <Tilt>
         <div className="text-intro">
-        <p className="nombre">Carlos Martínez Ripollés</p>
-        <Zoom>
-          <h1 className="tittle">{props.titulo}</h1>
+          <p className="nombre">Carlos Martínez Ripollés</p>
+          <Zoom>
+            <h1 className="tittle">{props.titulo}</h1>
           </Zoom>
           <div className="buttons">
-            
-             <Link to={URL.PROJECTS}>My Projects</Link>
-             <Link  className="cta" to={URL.CONTACT}>Get in touch</Link>
-          
+            <Link to={URL.PROJECTS}>My Projects</Link>
+            <Link className="cta" to={URL.CONTACT}>
+              Get in touch
+            </Link>
           </div>
           <div className="text-effect">
             <p>

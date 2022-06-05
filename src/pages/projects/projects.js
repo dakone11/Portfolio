@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { useNavigate  } from "react-router-dom";
 import Data from '../../datosMenuProject/datosMenuProject';
+import { THEME } from "../../constants/theme.constants";
 import Card from "../../componentes/Card";
 import Buttons from "../../componentes/Buttons";
 import '../../hojas-de-estilo/project.css'
 
  
- const Projects = () => {
+ const Projects = (props) => {
+  const { theme } = props;
   const navigate = useNavigate ();
   const [item, setItem] = useState(Data);
 
@@ -27,7 +29,19 @@ import '../../hojas-de-estilo/project.css'
    return (
     
       <div className="containerlist">
-       <img className="triangulo4" src={ require('../../imagenes/triangulo1.png')} alt=''/>
+       {theme === THEME.LIGHT ? (
+              <img
+                className="triangulo4"
+                src={require("../../imagenes/triangulo1.png")}
+                alt=""
+              />
+            ) : (
+              <img
+                className="triangulo4"
+                src={require("../../imagenes/triangulo1-dark.png")}
+                alt=""
+              />
+            )}
         <div>
           <h1>Works <span>done</span></h1>
           <Buttons

@@ -1,22 +1,15 @@
-import React from 'react'
-import Header from '../../componentes/Header'
-import Timeline from '../../componentes/Timeline'
-import Project from '../../componentes/Project'
+import React from "react";
+import Header from "../../componentes/Header";
+import Timeline from "../../componentes/Timeline";
+import Project from "../../componentes/Project";
 
-export const Home = () => {
+export const Home = (props) => {
   return (
-   
     <div>
-       
-        <Header
-         titulo='FRONTEND DEVELOPER'
-         imagen='me2'
-       />
-         <Timeline/>
-         <Project/>
-       
-
+      <Header titulo="FRONTEND DEVELOPER" imagen="me2" theme={props.theme} />
+      <Timeline />
+      <Project />
     </div>
-  )
-}
+  );
+};
 export default Home;

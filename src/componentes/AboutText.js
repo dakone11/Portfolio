@@ -2,16 +2,27 @@ import "../hojas-de-estilo/Abouttext.css";
 import Zoom from "react-reveal/Zoom";
 import React from "react";
 import Skills from "./Skills";
+import { THEME } from "../constants/theme.constants";
 
-function AboutText() {
+function AboutText( props ) {
+  const { theme } = props;
+
   return (
     <>
       <div className="intro_about">
-        <img
-          className="triangulo3"
-          src={require("../imagenes/triangulo1.png")}
-          alt=""
-        />
+      {theme === THEME.LIGHT ? (
+              <img
+                className="triangulo3"
+                src={require("../imagenes/triangulo1.png")}
+                alt=""
+              />
+            ) : (
+              <img
+                className="triangulo3"
+                src={require("../imagenes/triangulo1-dark.png")}
+                alt=""
+              />
+            )}
         <Zoom>
           <div className="text_about">
             <h2>
@@ -72,7 +83,7 @@ function AboutText() {
             
           </div>
         </Zoom>
-        <Skills />
+        <Skills theme={props.theme}/>
       </div>
     </>
   );

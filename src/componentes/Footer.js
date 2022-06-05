@@ -1,19 +1,29 @@
-import "../hojas-de-estilo/Footer.css";
 import React from "react";
 import Fade from "react-reveal/Fade";
 import { FaCodepen, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
+import { THEME } from "../constants/theme.constants";
+import "../hojas-de-estilo/Footer.css";
 
-function Footer() {
+function Footer(props) {
+  const { theme } = props;
   return (
     <footer>
       <div className="container-f">
         <div className="heading-wrapper">
           <div className="heading">
-            <img
-              className="triangulo3"
-              src={require("../imagenes/triangulo1.png")}
-              alt=""
-            />
+            {theme === THEME.LIGHT ? (
+              <img
+                className="triangulo3"
+                src={require("../imagenes/triangulo1.png")}
+                alt=""
+              />
+            ) : (
+              <img
+                className="triangulo3"
+                src={require("../imagenes/triangulo1-dark.png")}
+                alt=""
+              />
+            )}
             <p className="title">
               Want to <br />
               contact me?
@@ -23,11 +33,19 @@ function Footer() {
           </div>
 
           <div className="social">
-            <img
-              className="triangulo4"
-              src={require("../imagenes/triangulo1.png")}
-              alt=""
-            />
+            {theme === THEME.LIGHT ? (
+              <img
+                className="triangulo4"
+                src={require("../imagenes/triangulo1.png")}
+                alt=""
+              />
+            ) : (
+              <img
+                className="triangulo4"
+                src={require("../imagenes/triangulo1-dark.png")}
+                alt=""
+              />
+            )}
             <a target="_blank" href="/">
               <FaTwitter />
             </a>

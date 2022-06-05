@@ -4,6 +4,7 @@ import React from "react";
 import { CgMenuGridR } from "react-icons/cg";
 import { BsChevronDoubleRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { URL } from "../constants/url.constants";
 
 function Project() {
   return (
@@ -20,7 +21,7 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <Link className="menu__item-link" to="/powerfans">
+          <Link className="menu__item-link" to={URL.POWERFANS}>
          <Fade bottom cascade>POWERFANS
           </Fade></Link> 
           <img
@@ -42,7 +43,7 @@ function Project() {
               <span>HTML</span>
               <span>CSS</span>
               <span>JAVASCRIPT</span>
-              <span>UI UX</span>
+              <span>FIGMA</span>
             </div>
           </Fade>
         </div>

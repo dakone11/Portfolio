@@ -1,6 +1,6 @@
 import React from "react";
 import "../hojas-de-estilo/Skills.css";
-//import { FaCodepen,FaCss3,FaFigma,FaHtml5,FaPhp,} from 'react-icons/fa';
+import { THEME } from "../constants/theme.constants";
 import {
   SiAdobephotoshop,
   SiCss3,
@@ -16,7 +16,9 @@ import {
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 
-export const Skills = () => {
+export const Skills = (props) => {
+  const { theme } = props;
+
   return (
     <>
       <div className="skills">
@@ -24,7 +26,7 @@ export const Skills = () => {
           <Zoom>
             <div className="skills-tittle">
               <h2>
-                {" "}
+               
                 <span>My</span> Skills
               </h2>
             </div>
@@ -35,7 +37,7 @@ export const Skills = () => {
               <h2>SKILLS</h2>
               <div className="box-face">
                 <div className="box-text">
-                  {" "}
+                 
                   <SiAdobephotoshop />
                 </div>
               </div>
@@ -46,11 +48,21 @@ export const Skills = () => {
               </div>
             </div>
             <div className="box">
-              <img
-                className="triangulo3"
-                src={require("../imagenes/triangulo1.png")}
-                alt=""
-              />
+
+                {theme === THEME.LIGHT ? (
+                  <img
+                    className="triangulo3"
+                    src={require("../imagenes/triangulo1.png")}
+                    alt=""
+                  />
+                ) : (
+                  <img
+                    className="triangulo3"
+                    src={require("../imagenes/triangulo1-dark.png")}
+                    alt=""
+                  />
+                )}
+
               <span className="tooltip">CSS</span>
               <h2>SKILLS</h2>
               <div className="box-face">
