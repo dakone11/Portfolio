@@ -88,6 +88,9 @@ const NavContainer = styled.nav`
     text-decoration: none;
     margin-right: 1rem;
   }
+  .selected{
+    transform:translateX(-5px);
+  }
 
   .links {
     position: absolute;
@@ -120,7 +123,7 @@ const NavContainer = styled.nav`
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 30%;
+    top: 10%;
     left: 0;
     right: 0;
     text-align: center;
@@ -128,10 +131,9 @@ const NavContainer = styled.nav`
     a {
       font-family: "Kanit", sans-serif;
       text-transform: uppercase;
-      font-size: 3rem;
+      font-size: 4rem;
       color: var(--accent);
-      border-bottom: #f8f7f7e8 1px solid;
-      margin-top: 1rem;
+     
     }
     a:hover {
       color: var(--text-primary);
