@@ -27,28 +27,36 @@ function Navbar() {
         <div className={`links ${enableMenu ? "active" : ""}`}>
           <NavLink
             to={URL.HOME}
-            className={`nav-link ${location.pathname === URL.HOME ? "selected": ""}`}
+            className={`nav-link ${
+              location.pathname === URL.HOME ? "selected" : ""
+            }`}
             onClick={onClose}
           >
             Home
           </NavLink>
           <NavLink
             to={URL.ABOUT}
-            className={`nav-link ${location.pathname === URL.ABOUT ? "selected": ""}`}
+            className={`nav-link ${
+              location.pathname === URL.ABOUT ? "selected" : ""
+            }`}
             onClick={onClose}
           >
             About
           </NavLink>
           <NavLink
             to={URL.PROJECTS}
-            className={`nav-link ${location.pathname === URL.PROJECTS ? "selected": ""}`}
+            className={`nav-link ${
+              location.pathname === URL.PROJECTS ? "selected" : ""
+            }`}
             onClick={onClose}
           >
             Projects
           </NavLink>
           <NavLink
             to={URL.CONTACT}
-            className={`nav-link ${location.pathname === URL.CONTACT ? "selected": ""}`}
+            className={`nav-link ${
+              location.pathname === URL.CONTACT ? "selected" : ""
+            }`}
             onClick={onClose}
           >
             Contact
@@ -88,8 +96,8 @@ const NavContainer = styled.nav`
     text-decoration: none;
     margin-right: 1rem;
   }
-  .selected{
-    transform:translateX(-5px);
+  .selected {
+    transform: translateX(-5px);
   }
 
   .links {
@@ -133,7 +141,6 @@ const NavContainer = styled.nav`
       text-transform: uppercase;
       font-size: 4rem;
       color: var(--accent);
-     
     }
     a:hover {
       color: var(--text-primary);

@@ -37,7 +37,7 @@
      text-transform:uppercase;
      color:var(--text-primary);
      font-weight: 800;
-     margin-bottom:1.2rem;
+     margin-bottom:1rem;
      position:relative;
   }
   
@@ -48,11 +48,12 @@
      padding: 1rem;
   }
   .right_intro p {
-      margin: 20px 0;
+      margin-left: 1.2rem;
+      margin-right:1.2rem ;
       padding: 1rem;
       font-weight: 500;
       line-height: 25px;
-      margin-bottom:1.2rem;
+      margin-bottom:0.7rem;
       color:var(--text-primary);
       font-weight: 200;
       width: 90%;
@@ -62,7 +63,7 @@
   .right_intro ul{
       display:flex;
       list-style:none;
-      margin-bottom:1.2rem;
+      margin: 20px 20px;
   }
   .right_intro li{
       background-color: var(--accent);
@@ -72,16 +73,22 @@
       text-transform:uppercase;
   }
   .enlaces {
-      display:flex;
+      display:inline-block;
       justify-content:flex-end;
+      text-align: right;
+      width: 100%;
   }
   .enlaces a {
       text-decoration: none;
       color:  var(--accent);
       display: inline-block;
-      margin-bottom:1.2rem;
       margin-right:1.2rem;
   }
+  .enlaces p {
+    color:var(--text-secondary);
+    margin-right:1.2rem;
+    font-size: 0.8rem;
+}
   .left_description{
       width:50%;
       margin: 3.5rem;

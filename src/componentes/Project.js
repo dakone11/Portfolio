@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { URL } from "../constants/url.constants";
 
 function Project() {
+  
   return (
     <div className="menu">
       <Fade left>
@@ -14,7 +15,7 @@ function Project() {
           <p>
             view <span>projects</span>
           </p>
-          <Link to="/Project"> <CgMenuGridR /></Link>
+          <Link to={URL.PROJECTS}> <CgMenuGridR /></Link>
         </div>
       </Fade>
 
@@ -22,8 +23,10 @@ function Project() {
         <div className="menu__item">
           <BsChevronDoubleRight />
           <Link className="menu__item-link" to={URL.POWERFANS}>
-         <Fade bottom cascade>POWERFANS
-          </Fade></Link> 
+           <Fade
+            bottom cascade>POWERFANS
+          </Fade>
+          </Link> 
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project1.png")}
@@ -51,8 +54,11 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">
-         <Fade bottom cascade>ITE Valencia</Fade></a>
+          <Link className="menu__item-link" to={URL.ITEVALENCIA}>
+           <Fade
+            bottom cascade>ITE VALENCIA
+          </Fade>
+          </Link> 
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project2.png")}
@@ -60,10 +66,10 @@ function Project() {
           />
           <div className="marquee">
             <div className="marquee__inner" aria-hidden="true">
-              <span>ITE Valencia</span>
-              <span>ITE Valencia</span>
-              <span>ITE Valencia</span>
-              <span>ITE Valencia</span>
+              <span>ITE VALENCIA</span>
+              <span>ITE VALENCIA</span>
+              <span>ITE VALENCIA</span>
+              <span>ITE VALENCIA</span>
             </div>
           </div>
           <Fade top>
@@ -79,8 +85,11 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">
-         <Fade bottom cascade>Tarot</Fade></a>
+          <Link className="menu__item-link" to={URL.TAROT}>
+           <Fade
+            bottom cascade>TAROT S.M.
+          </Fade>
+          </Link> 
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project3.png")}
@@ -88,10 +97,10 @@ function Project() {
           />
           <div className="marquee">
             <div className="marquee__inner" aria-hidden="true">
-              <span>Tarot</span>
-              <span>Tarot Sabiduria metafisica</span>
-              <span>Tarot Sabiduria metafisica</span>
-              <span>Tarot</span>
+              <span>TAROT</span>
+              <span>TAROT SABIDURÍA METAFÍSICA</span>
+              <span>TAROT SABIDURÍA METAFÍSICA</span>
+              <span>TAROT SABIDURÍA METAFÍSICA</span>
             </div>
           </div>
           <Fade top>
@@ -107,8 +116,11 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">
-         <Fade bottom cascade>Groobuy</Fade></a>
+          <Link className="menu__item-link" to={URL.ABOUTME}>
+           <Fade
+            bottom cascade>ABOUT ME
+          </Fade>
+          </Link> 
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project4.png")}
@@ -116,10 +128,10 @@ function Project() {
           />
           <div className="marquee">
             <div className="marquee__inner" aria-hidden="true">
-              <span>Groobuy</span>
-              <span>Groobuy</span>
-              <span>Groobuy</span>
-              <span>Groobuy</span>
+              <span>ABOUT ME</span>
+              <span>ABOUT ME</span>
+              <span>ABOUT ME</span>
+              <span>ABOUT ME</span>
             </div>
           </div>
           <Fade top>
@@ -136,8 +148,11 @@ function Project() {
       <Fade bottom>
         <div className="menu__item">
           <BsChevronDoubleRight />
-          <a className="menu__item-link">
-         <Fade bottom cascade> Adverspot</Fade></a>
+          <Link className="menu__item-link" to={URL.ADVERSPOT}>
+           <Fade
+            bottom cascade>ADVERSPOT
+          </Fade>
+          </Link> 
           <img
             className="menu__item-img"
             src={require("../imagenes/show-project5.png")}
@@ -145,10 +160,10 @@ function Project() {
           />
           <div className="marquee">
             <div className="marquee__inner" aria-hidden="true">
-              <span>Adverspot</span>
-              <span>Adverspot</span>
-              <span>Adverspot</span>
-              <span>Adverspot</span>
+              <span>ADVERSPOT</span>
+              <span>ADVERSPOT</span>
+              <span>ADVERSPOT</span>
+              <span>ADVERSPOT</span>
             </div>
           </div>
           <Fade top>

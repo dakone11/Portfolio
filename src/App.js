@@ -8,6 +8,8 @@ import Projects from "./pages/projects/Projects";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Powerfans from "./pages/projects/Powerfans";
+import Itevalencia from "./pages/projects/Itevalencia";
+
 import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./utils/ScrollToTop";
 import useLocalStorage from "use-local-storage";
@@ -62,6 +64,7 @@ function App() {
         <Route path={URL.PROJECTS} element={<Projects theme={theme} />} />
         <Route path={URL.CONTACT} element={<Contact theme={theme} />} />
         <Route path={URL.POWERFANS} element={<Powerfans theme={theme} />} />
+        <Route path={URL.ITEVALENCIA} element={<Itevalencia theme={theme} /> }/>
       </Routes>
 
       <Footer theme={theme} />

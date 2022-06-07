@@ -9866,6 +9866,11 @@
   optionalDependencies:
     "fsevents" "1.2.4"
 
+"react-simple-carousel-image-slider@^1.0.34":
+  "integrity" "sha512-7Vzm77EYtDhSWZcAx5nwhqcIU25r2/0Yty88APIrpsIUAvWTbTKwep7YP+qnDZhiTvjRJYyqNUydW0Wfh4LJQg=="
+  "resolved" "https://registry.npmjs.org/react-simple-carousel-image-slider/-/react-simple-carousel-image-slider-1.0.34.tgz"
+  "version" "1.0.34"
+
 "react-typed@^1.2.0":
   "integrity" "sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw=="
   "resolved" "https://registry.npmjs.org/react-typed/-/react-typed-1.2.0.tgz"

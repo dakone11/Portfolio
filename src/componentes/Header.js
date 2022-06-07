@@ -8,7 +8,6 @@ import { URL } from "../constants/url.constants";
 import { THEME } from "../constants/theme.constants";
 
 function Header(props) {
-  const { theme } = props;
   const textLines = [
     `Hey! Check out my projects`,
     `work made with love`,
@@ -18,7 +17,7 @@ function Header(props) {
   return (
     <div className="container">
       <div className="intro-container">
-        {theme === THEME.LIGHT ? (
+        {props.theme === THEME.LIGHT ? (
           <>
             <img
               className="carlos-imagen"
@@ -43,7 +42,7 @@ function Header(props) {
           </>
         ) : (
           <>
-          <img
+            <img
               className="carlos-imagen"
               src={require(`../imagenes/header-${props.imagen}.png`)}
               alt="imagen de carlos frontal"
