@@ -19,7 +19,7 @@ const Tarot = (props) => {
         texturl2="web"
         año="Project created in 2018"
         overview="Custom corporate identity design and custom web design,
- responsive design, image, video and content creation, The project is collaborative, I was in charge of HTML, CSS, text and visual content.i was carried the social media for one year and succes more than 1.100 followers. The rest of the team was in charge of making the admin for the blog and JS content."
+ responsive design, image, video and content creation, The project is collaborative with Binary Colosuss S.A, I was in charge of HTML, CSS, text and visual content.I also created the logo and off/online graphic pieces (banners and business cards). In addition to developing the online marketing. Implement the online marketing strategy and manage the different social networks for a year and succes more than 1.100 followers. my colleagues took care of the backend, it is a manageable website with a control panel for the blog."
         slider=""
         titulo2="Web"
         subtitulo1="Corporate web design"
