@@ -9,6 +9,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Powerfans from "./pages/projects/Powerfans";
 import Itevalencia from "./pages/projects/Itevalencia";
+import Tarot from "./pages/projects/Tarot";
 
 import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./utils/ScrollToTop";
@@ -65,6 +66,7 @@ function App() {
         <Route path={URL.CONTACT} element={<Contact theme={theme} />} />
         <Route path={URL.POWERFANS} element={<Powerfans theme={theme} />} />
         <Route path={URL.ITEVALENCIA} element={<Itevalencia theme={theme} /> }/>
+        <Route path={URL.TAROT} element={<Tarot theme={theme} /> }/>
       </Routes>
 
       <Footer theme={theme} />

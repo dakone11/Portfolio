@@ -11,9 +11,9 @@ function Timeline() {
             <div className="content">
               <h3>UX Designer & UI Designer</h3>
               <p>
-              Create high-fidelity prototypes and interfaces from a design system.
+              Create high fidelity prototypes and interfaces from a design system.
               I am comfortable with FIGMA and other design tools such as Photoshop.
-              Prototyping, creation of user personas, participation in user testing
+              Prototyping, creating user personas, participating in user testing.
               </p>
             </div>
           </Zoom>
@@ -27,7 +27,7 @@ function Timeline() {
             <div className="content">
               <h3>Frontend Developer</h3>
               <p>
-              Knowledge of responsive web layout HTML5, CSS3, Javascript, React, PHP, Wordpress, version control with GIT, use of preprocessors SCSS.
+              Knowledge of responsive web layout HTML5, CSS3, Javascript, React, PHP, Wordpress, version control with GIT, use of SCSS preprocessors.
               </p>
             </div>
           </Zoom>
@@ -41,7 +41,7 @@ function Timeline() {
             <div className="content">
               <h3>Multimedia Designer</h3>
               <p>
-              Experience in video editing, knowledge of After Effects and the adobe package. Good use of composition and design, photo retouching.
+              Experience in video editing, knowledge of After Effects and Adobe package. Good use of compositing and layout, photo retouching.
               </p>
             </div>
           </Zoom>
