@@ -6,7 +6,7 @@ import Project from "../../componentes/Project";
 export const Home = (props) => {
   return (
     <div>
-      <Header titulo="FRONTEND DEVELOPER" imagen="me2" theme={props.theme} />
+      <Header titulo="FRONTEND DEVELOPER & DESIGNER" imagen="me2" theme={props.theme} />
       <Timeline />
       <Project />
     </div>

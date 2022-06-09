@@ -10,7 +10,6 @@ import Contact from "./pages/contact/Contact";
 import Powerfans from "./pages/projects/Powerfans";
 import Itevalencia from "./pages/projects/Itevalencia";
 import Tarot from "./pages/projects/Tarot";
-
 import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./utils/ScrollToTop";
 import useLocalStorage from "use-local-storage";

@@ -4,6 +4,9 @@ import { useLocation } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 import "../../hojas-de-estilo/Showproject.css";
 import Carrousel from "../../componentes/Carrousel";
+import {
+  MdDateRange
+} from "react-icons/md";
 
 const ShowProject = (props) => {
   const location = useLocation();
@@ -74,9 +77,9 @@ const ShowProject = (props) => {
                 </a>
 
               }
-                
-
-               
+               </div>
+               <div className="yeardate"><MdDateRange/>
+              
                 {props.año && <p>{props.año}</p>}
               </div>
             </div>
@@ -165,6 +168,16 @@ const ShowProject = (props) => {
       </div>
 
       <div className="container_project">
+      <Zoom>
+          <div className="left_description">
+            {props.imagendescription4 && (
+              <img
+                src={require(`../../imagenes/description-${props.imagendescription4}.png`)}
+                alt="project image from  portfolio carlos"
+              />
+            )}
+          </div>
+        </Zoom>
         <div className="right_description">
           <div className="content_description">
             {props.titulo5 && (
@@ -179,17 +192,37 @@ const ShowProject = (props) => {
             <p>{props.descrip12}</p>
           </div>
         </div>
+        
+      </div>
+      <div className="container_project">
+      
+        <div className="right_description">
+          <div className="content_description">
+            {props.titulo6 && (
+              <h2>
+                {props.titulo6} <span>Design</span>
+              </h2>
+            )}
+
+            {props.subtitulo5 && <h3>{props.subtitulo5}</h3>}
+            <p>{props.descrip13}</p>
+            <p>{props.descrip14}</p>
+            <p>{props.descrip15}</p>
+          </div>
+        </div>
         <Zoom>
           <div className="left_description">
-            {props.imagendescription4 && (
+            {props.imagendescription5 && (
               <img
-                src={require(`../../imagenes/description-${props.imagendescription4}.png`)}
+                src={require(`../../imagenes/description-${props.imagendescription5}.png`)}
                 alt="project image from  portfolio carlos"
               />
             )}
           </div>
         </Zoom>
+        
       </div>
+      
 
       <div className="pagination">
         <div className="pagination_left">
