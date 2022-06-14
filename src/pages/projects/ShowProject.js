@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 import "../../hojas-de-estilo/Showproject.css";
-import Carrousel from "../../componentes/Carrousel";
 import { MdDateRange } from "react-icons/md";
 
 const ShowProject = (props) => {
