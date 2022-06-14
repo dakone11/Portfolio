@@ -70,5 +70,15 @@ export default [
         tags: <SiFigma/>,
         tags1: <SiHtml5/>,
         tags2: <SiCss3/>
+    },
+    {
+        id:7,
+        path: URL.MANGANORTE,
+        image:'/menu-project7.png',
+        title: 'Manga Norte',
+        category: 'Branding',
+        tags: <SiAdobeillustrator/>,
+        tags1:<SiAdobephotoshop/>,
+        
     }
 ];

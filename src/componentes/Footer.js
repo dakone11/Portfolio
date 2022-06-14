@@ -46,16 +46,29 @@ function Footer(props) {
                 alt=""
               />
             )}
-            <a target="_blank" href="/">
+            <a target="_blank" href="" rel="noopener">
               <FaTwitter />
             </a>
-            <a target="_blank" href="/">
+
+            <a
+              target="_blank"
+              href="https://codepen.io/your-work/"
+              rel="noopener"
+            >
               <FaCodepen />
             </a>
-            <a target="_blank" href="/">
+            <a
+              target="_blank"
+              href="https://github.com/dakone11?tab=repositories"
+              rel="noopener"
+            >
               <FaGithub />
             </a>
-            <a target="_blank" href="/">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCwkiZYpHXr709IgNPxbveGA"
+              rel="noopener"
+            >
               <FaYoutube />
             </a>
           </div>

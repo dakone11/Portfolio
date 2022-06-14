@@ -1,37 +1,37 @@
 .container_project {
-    width: 100%;
-    margin: 3.5rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .left_intro {
-    width: 60%; 
-  }
-  .left_intro  img{
-    width:100%; 
-    filter: saturate(100%);
-    transition: all 0.9s ease;
-  }
-  .left_intro  img:hover{
-    filter: saturate(0%);
-  }
-  .right_intro {
-    width: 40%;
-    background:var(--background);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    color: var(--text-hover);
-    margin-left: -100px;
-    position:relative;
-    box-shadow:var(--fbox-shadow);
-    padding: 30px 60px;
-  }
-  .content{
-     word-wrap: break-word;
-  }
+  width: 100%;
+  margin: 3.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left_intro {
+  width: 60%; 
+}
+.left_intro  img{
+  width:100%; 
+  filter: saturate(90%);
+}
+.left_intro  img:hover{
+  filter: saturate(0);
+  transition: all 0.9s ease;
+}
+.right_intro {
+  width: 40%;
+   background:var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color:var(--text-hover);
+  margin-left: -100px;
+  position:relative;
+  box-shadow:var(--fbox-shadow);
+  padding: 30px 60px;
+}
+.content{
+   word-wrap: break-word;
+}
   .right_intro h1 {
      font-size: 2.5rem;
      text-transform:uppercase;
@@ -39,6 +39,7 @@
      font-weight: 800;
      margin-bottom:1rem;
      position:relative;
+     padding: 0.5rem;
   }
   
   .right_intro h3 {
@@ -163,6 +164,19 @@
   .pagination p{
       color:var(--text-primary);
       font-size:0.7rem;
+  }
+  .video-responsive{
+    overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  }
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
   
   

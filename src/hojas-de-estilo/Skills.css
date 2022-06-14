@@ -98,6 +98,7 @@
     -moz-transform: rotate(-135deg);
     transform: rotate(-135deg);
     transition: opacity 0s linear 0.3s;
+    
 }
 .box-back .box-text {
     line-height: 100px;
@@ -150,4 +151,8 @@
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid black;
+}
+.box-black:hover{
+    transform: translate(-100px, 0px);
+
 }

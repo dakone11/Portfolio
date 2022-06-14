@@ -8,5 +8,6 @@ export const URL = {
     TAROT: '/tarot',
     TRASTEROS: '/trastero-plus',
     ADVERSPOT: '/adverspot',
-    ABOUTME: '/about-me'
+    ABOUTME: '/about-me',
+    MANGANORTE: '/manga-norte'
 };

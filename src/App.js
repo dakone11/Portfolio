@@ -10,12 +10,16 @@ import Contact from "./pages/contact/Contact";
 import Powerfans from "./pages/projects/Powerfans";
 import Itevalencia from "./pages/projects/Itevalencia";
 import Tarot from "./pages/projects/Tarot";
+import Adverspot from "./pages/projects/Adverspot";
 import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./utils/ScrollToTop";
 import useLocalStorage from "use-local-storage";
 import { FaToggleOn } from "react-icons/fa";
 import { URL } from "./constants/url.constants";
 import { THEME } from "./constants/theme.constants";
+import Aboutme from "./pages/projects/Aboutme";
+import Manganorte from "./pages/projects/Manganorte";
+import Trasteropluse from "./pages/projects/Trasteroplus";
 
 function App() {
   const [theme, setTheme] = useLocalStorage("theme" ? THEME.DARK : THEME.LIGHT);
@@ -66,6 +70,10 @@ function App() {
         <Route path={URL.POWERFANS} element={<Powerfans theme={theme} />} />
         <Route path={URL.ITEVALENCIA} element={<Itevalencia theme={theme} /> }/>
         <Route path={URL.TAROT} element={<Tarot theme={theme} /> }/>
+        <Route path={URL.ADVERSPOT} element={<Adverspot theme={theme} /> }/>
+        <Route path={URL.ABOUTME} element={<Aboutme theme={theme} /> }/>
+        <Route path={URL.MANGANORTE} element={<Manganorte theme={theme} /> }/>
+        <Route path={URL.TRASTEROS} element={<Trasteropluse theme={theme} /> }/>
       </Routes>
 
       <Footer theme={theme} />

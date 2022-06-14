@@ -1,0 +1,13 @@
+.right_intro {
+    width: 40%;
+    background:var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: var(--text-hover);
+    margin-left: -100px;
+    position:relative;
+    box-shadow:var(--fbox-shadow);
+    padding: 30px 60px;
+  }
