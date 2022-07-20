@@ -219,8 +219,8 @@
       height: 400px;
     }
     .right_intro {
-      width: 100%;
-      margin: 0;
+      width: 90%;
+      margin: 0 auto;
       margin-top: -150px;
       margin-bottom: 100px;
     }

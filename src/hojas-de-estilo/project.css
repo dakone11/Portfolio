@@ -288,8 +288,7 @@ span{
 	.menu__item-link,
 	.marquee span {
 		white-space: nowrap;
-		font-size: 3rem;
-		
+		font-size: 2.1rem;
 		line-height: 1.50;
 	}
 	.menu__item-link {

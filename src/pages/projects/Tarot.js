@@ -1,7 +1,12 @@
 import React from "react";
 import ShowProject from "./ShowProject";
 import Contentproject from "../../componentes/Contentproject";
-const Tarot = (props) => {
+import { useEffect } from 'react';
+
+const Tarot = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <div>

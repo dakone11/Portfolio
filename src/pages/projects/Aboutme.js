@@ -1,7 +1,11 @@
 import React from 'react'
 import ShowProject from './ShowProject';
 import Contentproject from '../../componentes/Contentproject';
+import { useEffect } from 'react';
 const Aboutme = () => {
+        useEffect(() => {
+                window.scrollTo(0, 0)
+              }, [])
   return (
     <div>
         <ShowProject

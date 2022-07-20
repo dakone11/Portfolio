@@ -7,7 +7,7 @@ export default [
     {
         id:1,
         path: URL.POWERFANS,
-        image:'/menu-project1.png',
+        image:'./menu-project1.png',
         title: 'Powerfans',
         category: 'UI UX',
         tags: <SiFigma/>,
@@ -19,7 +19,7 @@ export default [
     {
         id:2,
         path: URL.ITEVALENCIA,
-        image:'/menu-project2.png',
+        image:'./menu-project2.png',
         title: 'Ite Valencia',
         category: 'Web Design',
         tags:  <SiHtml5/>,
@@ -31,7 +31,7 @@ export default [
     {
         id:3,
         path: URL.TAROT,
-        image:'/menu-project3.png',
+        image:'./menu-project3.png',
         title: 'Sabiduría Metafísica',
         category: 'Web Design',
         tags:  <SiHtml5/>,
@@ -42,7 +42,7 @@ export default [
     {
         id:4,
         path: URL.TRASTEROS,
-        image:'/menu-project4.png',
+        image:'./menu-project4.png',
         title: 'TrasteroPlus',
         category: 'Branding',
         tags: <SiAdobeillustrator/>,
@@ -52,7 +52,7 @@ export default [
     {
         id:5,
         path: URL.ADVERSPOT,
-        image:'/menu-project5.png',
+        image:'./menu-project5.png',
         title: 'ADVERSPOT',
         category: 'UI UX',
         tags: <SiAdobeaftereffects/>,
@@ -64,7 +64,7 @@ export default [
     {
         id:6,
         path: URL.ABOUTME,
-        image:'/menu-project6.png',
+        image:'./menu-project6.png',
         title: 'About me',
         category: 'Web Design',
         tags: <SiFigma/>,
@@ -74,7 +74,7 @@ export default [
     {
         id:7,
         path: URL.MANGANORTE,
-        image:'/menu-project7.png',
+        image:'./menu-project7.png',
         title: 'Manga Norte',
         category: 'Branding',
         tags: <SiAdobeillustrator/>,

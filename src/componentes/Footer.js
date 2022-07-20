@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import { FaCodepen, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaCodepen, FaGithub,FaLinkedin, FaBehance } from "react-icons/fa";
 import { THEME } from "../constants/theme.constants";
 import "../hojas-de-estilo/Footer.css";
 
@@ -46,8 +46,10 @@ function Footer(props) {
                 alt=""
               />
             )}
-            <a target="_blank" href="" rel="noopener">
-              <FaTwitter />
+            <a target="_blank" 
+            href="https://www.linkedin.com/in/carlos-mart%C3%ADnez-ripoll%C3%A9s-1a2889a9/" 
+            rel="noopener">
+              <FaLinkedin />
             </a>
 
             <a
@@ -66,10 +68,10 @@ function Footer(props) {
             </a>
             <a
               target="_blank"
-              href="https://www.youtube.com/channel/UCwkiZYpHXr709IgNPxbveGA"
+              href="https://www.behance.net/carlosdako"
               rel="noopener"
             >
-              <FaYoutube />
+              <FaBehance />
             </a>
           </div>
         </div>

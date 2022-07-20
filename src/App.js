@@ -63,7 +63,7 @@ function App() {
 
       <ScrollToTop />
       <Routes>
-        <Route path={URL.HOME} element={<Home theme={theme} />} />
+       
         <Route path={URL.ABOUT} element={<About theme={theme} />} />
         <Route path={URL.PROJECTS} element={<Projects theme={theme} />} />
         <Route path={URL.CONTACT} element={<Contact theme={theme} />} />
@@ -74,6 +74,7 @@ function App() {
         <Route path={URL.ABOUTME} element={<Aboutme theme={theme} /> }/>
         <Route path={URL.MANGANORTE} element={<Manganorte theme={theme} /> }/>
         <Route path={URL.TRASTEROS} element={<Trasteropluse theme={theme} /> }/>
+        <Route path={URL.HOME} element={<Home theme={theme} />} />
       </Routes>
 
       <Footer theme={theme} />

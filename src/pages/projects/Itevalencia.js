@@ -1,7 +1,12 @@
 import React from "react";
 import ShowProject from "./ShowProject";
 import Contentproject from "../../componentes/Contentproject";
-const Itevalencia = (props) => {
+import { useEffect } from 'react';
+
+const Itevalencia = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <div>

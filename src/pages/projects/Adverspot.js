@@ -2,8 +2,12 @@ import React from "react";
 import Contentproject from "../../componentes/Contentproject";
 import Video from "../../componentes/Video";
 import ShowProject from "./ShowProject";
+import { useEffect } from 'react';
 
-const Adverspot = (props) => {
+const Adverspot = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <ShowProject

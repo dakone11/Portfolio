@@ -2,8 +2,12 @@ import React from "react";
 import Carrousel from "../../componentes/Carrousel";
 import Contentproject from "../../componentes/Contentproject";
 import ShowProject from "../projects/ShowProject";
+import { useEffect } from 'react';
 
-const Powerfans = (props) => {
+const Powerfans = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <div>
